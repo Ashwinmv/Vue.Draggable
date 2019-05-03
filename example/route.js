@@ -6,6 +6,6 @@ const routes = ctx.keys().map(key => ({
 
 routes.push({
   path: "/",
-  redirect: "./simple"
+  redirect: "./nested-example"
 });
 export default routes;
